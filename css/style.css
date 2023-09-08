@@ -1,0 +1,163 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+ 
+} 
+ 
+a{ 
+    text-decoration: none; 
+} 
+ 
+li{ 
+    list-style: none;     
+} 
+ 
+/* ======================================*/ 
+ 
+ 
+.title{ 
+    color: #163A24; 
+    font-family: Recoleta; 
+    font-weight: 600px; 
+    font-size: 48px; 
+    line-height: 54px; 
+} 
+.title_white{ 
+    color: #fbfaf7; 
+} 
+ 
+.conteiner{ 
+    width: 1170px; 
+    margin: 0 auto; 
+     
+} 
+.text{ 
+    color: #163a24; 
+    font-size: 16px; 
+    font-family: Noto Sans; 
+    font-weight: 400; 
+} 
+.text_white{ 
+    color: #fbfaf7; 
+} 
+ 
+/*header*/ 
+ 
+.header{ 
+    background: #163a24; 
+    padding: 23px 0; 
+} 
+ 
+.header__wrap{ 
+    display: flex; 
+    justify-content: space-between; 
+} 
+ 
+ 
+.header__block{ 
+    display: flex; 
+    align-items: center; 
+} 
+.header__menu{ 
+    display: flex; 
+    
+} 
+.header__menu-item{ 
+    color: #fbfaf7; 
+    font-size: 16px; 
+    font-family: Noto Sans; 
+    font-weight: 400; 
+    margin-right: 24px; 
+} 
+ 
+.header__link{ 
+    background-color: #198c36; 
+    padding: 15px 25px; 
+    border-radius: 160px; 
+} 
+ 
+.header__link a{ 
+    color: #fbfaf7; 
+    font-size: 16px; 
+    font-family: Noto Sans; 
+    font-weight: 400; 
+} 
+ 
+/* intro */ 
+ 
+.intro{ 
+    background-color: #163a24; 
+} 
+ 
+.intro__wrap{ 
+    display: flex; 
+} 
+ 
+.intro__texts{ 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+ 
+} 
+ 
+.intro__title{ 
+    margin-bottom: 18px; 
+} 
+ 
+.intro__pic{ 
+    margin-right: -54px; 
+} 
+ 
+/* hr */ 
+ 
+.hr{ 
+    padding: 120px 0; 
+} 
+.hr__block{ 
+    display: flex; 
+    justify-content: space-between; 
+} 
+ 
+.hr__texts{ 
+    display: flex; 
+    flex-direction: column ; 
+    justify-content: center; 
+    max-width: 374px; 
+} 
+ 
+.hr__title{ 
+    margin-bottom: 27px; 
+} 
+ 
+/* hq */ 
+ 
+.hq{ 
+    background-color: #163a24; 
+    padding: 66px 0 120px 0; 
+ 
+} 
+ 
+.hq__title{ 
+    text-align: center; 
+    margin-bottom: 66px; 
+} 
+ 
+.hq__row{ 
+    display: flex; 
+    justify-content: space-between; 
+} 
+ 
+.hq__card{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+ 
+.hq__text{ 
+    text-align: center; 
+} 
+.hq__pic{ 
+    margin-bottom: 44px; 
+     
+}
